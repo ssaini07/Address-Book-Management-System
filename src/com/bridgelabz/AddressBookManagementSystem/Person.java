@@ -2,7 +2,7 @@ package com.bridgelabz.AddressBookManagementSystem;
 
 public class Person {
 
-	private String firstName, lastName, email; 
+	private String firstName, lastName, email;
 	private Address address;
 	private long phoneNumber;
 
@@ -52,5 +52,4 @@ public class Person {
 				+ ", phoneNumber=" + phoneNumber + "]";
 	}
 
-	
 }
