@@ -8,6 +8,9 @@ public class AddressBookMain {
 		IPersonImplemenation contactImp = new IPersonImplemenation();
 		System.out.println("Creation of a new contact");
 		contactImp.addNewContact();
+		System.out.println("Edit method called");
+		contactImp.editContact();
+		
 		
 	}
 }
